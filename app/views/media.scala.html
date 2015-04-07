@@ -1,0 +1,56 @@
+@(appearances: List[List[NewsAppearance]])(implicit request: RequestHeader, ctx: PrismicHelper.Context)
+
+<div class="media-container">
+@main("Media") {
+    @appearances.map { set =>
+        @set.headOption.map{ apr =>
+            @apr.aprType match {
+                case "video" => {
+                    @for(item <- set) {
+                        <div class="media-video">
+                            <a href="@apr.link.map(_.getUrl(ctx.linkResolver)).getOrElse("")">
+                            @apr.image.map { image =>
+                                <img src="@image.main.url" alt="News Appearance with Rick">
+                            }
+                            </a>
+                        </div>
+                    }
+                }
+
+
+                case "image" => {
+                    <div class="media-image-group">
+                        @for(item <- set) {
+                            @item.image.map { image =>
+                                <img class="media-individual" src="@image.getView("small").map(_.url).getOrElse("")" alt="News Appearance with Rick"/>
+                            }
+                        }
+                    </div>
+                }
+
+
+                case _ => {
+                    <div class="media-article">
+                        @for(item <- set) {
+                            @item.image.map { image =>
+                                <img src="@image.getView("small").map(_.url).getOrElse("")" alt="News Appearance with Rick">
+                            }
+                        <div class="media-headline">
+                             @item.headline.map { headline =>
+                                 @Html(headline.asHtml(ctx.linkResolver))
+                               Description or link to article here? 
+                             }
+                        </div>
+                        }
+                    </div>
+                    }
+            }
+        }.getOrElse("")
+    }
+}
+</div>
+
+
+
+
+

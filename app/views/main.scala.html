@@ -1,0 +1,56 @@
+@(title: String)(content: Html)(implicit request: RequestHeader)
+
+@active(clss: String, path: String) = @{
+    if(request.path.startsWith(path)) {
+        s"""$clss $clss--active"""
+    } else {
+        s"$clss"
+    }
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@title - Rick Smith</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <!--[if !IE]> --><link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.min.css")"><!-- <![endif]-->
+        @Html(s"""<!--[if lte IE 9 ]><link rel="stylesheet" media="screen" href="${routes.Assets.versioned("stylesheets/ie.min.css")}"><![endif]-->\n"""+
+        s"""<!--[if lt IE 9 ]><script src="${routes.Assets.versioned("javascripts/ie8.js")}"></script><![endif]-->""")
+    </head>
+    <body onload="initialize()">
+        <header id="header" role="banner">
+            <a class="logo" href="@routes.Application.index()">Rick Smith</a>
+                <div class="nav">
+                    <input id="navSwitch" type="checkbox">
+                    <label class="navSwitch-label" for="navSwitch"></label>
+                    <nav class="nav--bar">
+                        <a class="nav-item" href="@routes.Application.about()">About</a>
+                        <a class="nav-item" href="@routes.Application.events()">Events</a>
+                        <a class="nav-item" href="@routes.Application.media()">Media</a>
+                        <a class="nav-item" href="@routes.Application.contact()">Contact</a>
+                    </nav>
+                </div>
+        </header>
+
+        @content
+
+<!--         <footer id="footer" role="contentinfo"> 
+            <nav class="nav--bar_footer">
+                 <a class="nav-item_footer" href="@routes.Application.about()">About</a>
+                <a class="nav-item_footer" href="@routes.Application.events()">Events</a>
+                <a class="nav-item_footer" href="@routes.Application.media()">Media</a>
+                <a class="nav-item_footer" href="@routes.Application.contact()">Contact</a> 
+                <div class="social">
+                    <a class="nav-item_footer i-twitter" href="#">Twitter</a>
+                    <a class="nav-item_footer i-googlePlus" href="#">Google Plus</a>
+                    <a class="nav-item_footer i-linkedIn" href="#">LinkedIn</a>
+                    <a class="nav-item_footer i-facebook" href="#">Facebook</a>
+                </div>
+            </nav>
+        </footer> -->
+
+        <script type="text/javascript" src="//static.cdn.prismic.io/prismic.min.js"></script>
+    </body>
+</html>

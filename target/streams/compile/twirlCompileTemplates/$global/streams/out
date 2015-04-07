@@ -1,0 +1,4 @@
+[0m[[31merror[0m] [0m/Users/monicadavidson/Development/ricksmith/app/views/contact.scala.html:10: Expected '}' but found '@'[0m
+[0m[[31merror[0m] [0m//        @components.block(block)*@ <h5>Test test test teeeeest! This will actually come from the CMS</h5>[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

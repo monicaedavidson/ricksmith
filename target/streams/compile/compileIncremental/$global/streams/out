@@ -1,0 +1,316 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala, /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/controllers/routes.java, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala, /Users/Monica/Desktop/ricksmith/app/Global.scala, /Users/Monica/Desktop/ricksmith/app/models/Event.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala, /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala, /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala, /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala, /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala, /Users/Monica/Desktop/ricksmith/app/models/Block.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/map.template.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala, /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/controllers/routes.java, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala, /Users/Monica/Desktop/ricksmith/app/Global.scala, /Users/Monica/Desktop/ricksmith/app/models/Event.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala, /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala, /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala, /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala, /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala, /Users/Monica/Desktop/ricksmith/app/models/Block.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/map.template.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala, /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/controllers/routes.java, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala, /Users/Monica/Desktop/ricksmith/app/Global.scala, /Users/Monica/Desktop/ricksmith/app/models/Event.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala, /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala, /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala, /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala, /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala, /Users/Monica/Desktop/ricksmith/app/models/Block.scala, /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/map.template.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 21 sources: invalidated sources (21) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 20 Scala sources and 1 Java source to /Users/Monica/Desktop/ricksmith/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.4  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_60befc4f[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/Monica/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/.sbt/boot/scala-2.10.4/com.typesafe.sbtrc/server-0-13/0.3.1/xsbti/interface-0.13.8-M3.jar:/Users/Monica/.sbt/boot/scala-2.10.4/com.typesafe.sbtrc/server-0-13/0.3.1/compiler-interface-src/compiler-interface-src-0.13.8-M3.jar:/Users/Monica/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.4.jar:/Users/Monica/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.4.jar:/Users/Monica/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/Users/Monica/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.2.jar:/Users/Monica/.ivy2/cache/jline/jline/jars/jline-2.12.jar[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/hd/4yp_4pxj3tsf5rh3jjkt3rv40000gn/T/sbt_a310b652/xsbt/ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 62e38e5d, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	utf8[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/Monica/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/classes:/Users/Monica/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.0.2.jar:/Users/Monica/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.1.jar:/Users/Monica/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.3.8.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.3.8.jar:/Users/Monica/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.18.2-GA.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/Monica/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar:/Users/Monica/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar:/Users/Monica/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar:/Users/Monica/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar:/Users/Monica/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/Monica/.ivy2/cache/io.netty/netty/bundles/netty-3.9.3.Final.jar:/Users/Monica/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.2.jar:/Users/Monica/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar:/Users/Monica/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.6.jar:/Users/Monica/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.6.jar:/Users/Monica/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.1.jar:/Users/Monica/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.1.jar:/Users/Monica/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.4.jar:/Users/Monica/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.4.jar:/Users/Monica/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar:/Users/Monica/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/Monica/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/Monica/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/Monica/.ivy2/cache/com.h2database/h2/jars/h2-1.3.175.jar:/Users/Monica/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/anorm_2.11/jars/anorm_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/com.jsuereth/scala-arm_2.11/jars/scala-arm_2.11-1.4.jar:/Users/Monica/.ivy2/cache/org.scala-lang.plugins/scala-continuations-library_2.11/bundles/scala-continuations-library_2.11-1.0.1.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.8.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar:/Users/Monica/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.8.15.jar:/Users/Monica/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/Monica/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/Monica/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/Users/Monica/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/Users/Monica/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/Monica/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.3.8.jar:/Users/Monica/.ivy2/cache/io.prismic/scala-kit_2.11/jars/scala-kit_2.11-1.2.17.jar:/Users/Monica/.ivy2/cache/org.fluentd/fluent-logger/jars/fluent-logger-0.2.10.jar:/Users/Monica/.ivy2/cache/org.msgpack/msgpack/bundles/msgpack-0.6.7.jar:/Users/Monica/.ivy2/cache/com.googlecode.json-simple/json-simple/bundles/json-simple-1.1.1.jar:/Users/Monica/.ivy2/cache/junit/junit/jars/junit-4.10.jar:/Users/Monica/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar:/Users/Monica/.ivy2/cache/com.jcraft/jzlib/jars/jzlib-1.1.2.jar:/Users/Monica/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.1.0.Beta4-SNAPSHOT.jar:/Users/Monica/.ivy2/cache/org.apache.commons/commons-collections4/jars/commons-collections4-4.0.jar:/Users/Monica/.ivy2/cache/org.webjars/webjars-play_2.11/jars/webjars-play_2.11-2.3.0.jar:/Users/Monica/.ivy2/cache/org.webjars/requirejs/jars/requirejs-2.1.10.jar:/Users/Monica/.ivy2/cache/org.webjars/webjars-locator/jars/webjars-locator-0.14.jar:/Users/Monica/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.3.jar:/Users/Monica/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.3.jar:/Users/Monica/.ivy2/cache/org.webjars/html5shiv/jars/html5shiv-3.7.2.jar:/Users/Monica/.ivy2/cache/com.mohiva/play-html-compressor_2.11/jars/play-html-compressor_2.11-0.3.jar:/Users/Monica/.ivy2/cache/com.googlecode.htmlcompressor/htmlcompressor/jars/htmlcompressor-1.5.2.jar:/Users/Monica/.ivy2/cache/rhino/js/jars/js-1.7R2.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 53.668403 s[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@6c2a728 directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.872202 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.019319 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.902556 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, block, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala: Set(format, _display_, block, apply)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala: Set(format, _display_, block, apply)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/map.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/map.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/map.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/map.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/map.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, map, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, main, productPrefix, notifyAll, readResolve, isInstanceOf, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala: Set(format, _display_, main, apply)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala: Set(format, _display_, main, apply)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala: Set(format, _display_, main, apply, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala: Set(format, _display_, main, apply)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala: Set(format, _display_, main, apply)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, controllers_PrismicHelper_preview1_route, controllers_Application_about5_invoker, controllers_Application_media7_invoker, badRequest, wait, $asInstanceOf, routes, createInvoker, equals, prefix, controllers_Assets_versioned9_invoker, asInstanceOf, documentation, synchronized, controllers_PrismicHelper_preview1_invoker, controllers_Application_brokenLink2_route, controllers_Application_untrail0_invoker, $isInstanceOf, controllers_Application_media7_route, handlerFor, _prefix, notifyAll, controllers_Assets_versioned9_route, controllers_Application_events6_route, isInstanceOf, controllers_Application_index4_route, controllers_WebJarAssets_at10_route, controllers_Assets_at3_route, controllers_Application_about5_route, controllers_Application_contact8_route, ==, controllers_Application_brokenLink2_invoker, controllers_Application_contact8_invoker, clone, controllers_Application_untrail0_route, Routes, controllers_Assets_at3_invoker, controllers_Application_events6_invoker, toString, !=, fakeValue, getClass, setPrefix, controllers_Application_index4_invoker, ne, call, controllers_WebJarAssets_at10_invoker, eq, defaultPrefix, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala: Set(prefix, _prefix, Routes, getClass, defaultPrefix)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala by /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala by /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala, /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala, /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	request2session, request2flash, request2lang.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/Global.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	fromRequest, request2session, request2lang, fromI18nRequest, request2flash.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/Global.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	request2session, request2flash, langFromRequest, request2lang.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_routing.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/Global.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/Global.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/Global.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/Global.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/Global.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, Global, wait, $asInstanceOf, equals, asInstanceOf, getControllerInstance, synchronized, $isInstanceOf, onLoadConfig, notifyAll, isInstanceOf, onError, doFilter, apply, onHandlerNotFound, ==, clone, onRequestReceived, beforeStart, configuration, onBadRequest, toString, !=, onRequestCompletion, getClass, onStop, ne, onStart, eq, onRouteRequest, HTMLCompressorFilter, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, index, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala: Set(apply, ==, ne, index)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, about, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala: Set(apply, ==, about, ne)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/routes_reverseRouting.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, ReversePrismicHelper, preview, synchronized, $isInstanceOf, ReverseAssets, contact, notifyAll, isInstanceOf, brokenLink, <init>, at, ==, clone, media, ReverseWebJarAssets, toString, untrail, !=, getClass, about, ne, versioned, eq, events, ReverseApplication, ##, finalize, index, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala: Set(<init>, versioned, events, index)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala: Set(contact, brokenLink, <init>, ==, media, about, ne, events, index)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala: Set(<init>, versioned, events)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala: Set(asInstanceOf, isInstanceOf, <init>, at, ==, toString, eq, index)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala: Set(contact, <init>, media, about, versioned, events, index)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/models/Block.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/models/Block.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/models/Block.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/models/Block.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/models/Block.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	optionGroup2linkIDs.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/models/Block.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, apply, ==, clone, media, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala: Set(apply, ==, media, ne)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, contact, productPrefix, notifyAll, readResolve, isInstanceOf, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala: Set(contact, apply, ==, ne)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	request2session, request2flash, request2lang.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/controllers/I18n.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicController.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/controllers/routes.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/controllers/routes.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/controllers/routes.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/controllers/routes.java)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/src_managed/main/controllers/routes.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/main.template.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala by /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/Monica/Desktop/ricksmith/app/models/Event.scala by /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/Monica/Desktop/ricksmith/app/models/Block.scala by /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/models/Block.scala, /Users/Monica/Desktop/ricksmith/app/models/Event.scala, /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala, /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	optionGroup2linkIDs.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/models/Block.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/about.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/block.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/contact.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/models/Event.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/models/PrismicDocument.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/models/Block.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/models/Event.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/models/Event.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/models/Event.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/models/Event.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/models/Event.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/models/Event.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	optionGroup2linkIDs.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/models/Event.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/components/event.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, productArity, equals, event, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/index.template.scala: Set(format, event, _display_, apply)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala: Set(format, event, _display_, apply)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/events.template.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, events, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/Monica/Desktop/ricksmith/app/controllers/Application.scala: Set(apply, ==, ne, events)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	optionGroup2linkIDs.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Monica/Desktop/ricksmith/app/models/NewsAppearance.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/app/controllers/PrismicHelper.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Monica/Desktop/ricksmith/target/scala-2.11/twirl/main/views/html/media.template.scala[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

@@ -1,0 +1,5 @@
+[0m[[33mwarn[0m] [0m/Users/Monica/Desktop/ricksmith/app/Global.scala:2: imported `HTMLCompressorFilter' is permanently hidden by definition of object HTMLCompressorFilter[0m
+[0m[[33mwarn[0m] [0mimport com.mohiva.play.htmlcompressor.HTMLCompressorFilter[0m
+[0m[[33mwarn[0m] [0m                                      ^[0m
+[0m[[33mwarn[0m] [0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mtwo warnings found[0m

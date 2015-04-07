@@ -1,0 +1,50 @@
+.group { //clearfix
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear:both;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.background-size(@size) when (@size = cover) {
+  background-size: cover;
+  -ms-behavior: url("/assets/javascripts/backgroundsize.min.htc");
+}
+
+.sides(...) {
+  top: extract(@arguments, 1);
+  right: extract(@arguments, 2);
+  bottom: extract(@arguments, 3);
+  left: extract(@arguments, 4);
+}
+
+.rgba(@colour, @alpha) {
+  @alphaColour: hsla(hue(@colour), saturation(@colour), lightness(@colour), @alpha);
+  @ieAlphaColour: argb(@alphaColour);
+
+  background-color: @colour; // Fallback for older browsers
+
+  // IE hacks
+  zoom: 1; // hasLayout
+  background-color: transparent\9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 8+
+
+  background-color: @alphaColour;
+}

@@ -1,0 +1,152 @@
+#header {
+  position: relative;
+  .width(100%);
+  .height(3rem);
+  background-color: @rick;
+  color: white;
+
+  .logo {
+    float: left;
+    text-decoration: none;
+    color: white;
+    .margin-left(1rem);
+  }
+
+  .logo, .nav {
+    .line-height(3rem);
+    .max-height(3rem);
+    overflow: hidden;
+  }
+
+  .nav {
+    float: right;
+  }
+
+  nav {
+    position: absolute;
+    .width(100%);
+    top: 100%;
+    right: 0;
+    .padding(0 0.3rem);
+  }
+
+  .nav-item {
+    .padding(0, 1rem);
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+#header, #footer {
+  .noselect;
+}
+
+#header {
+  .nav-item {
+    .transition(background-color 0.25s ease-in-out);
+
+    &:hover, &:active, &:focus {
+      outline: none;
+      width: 100%;
+      background-color: rgba(204, 204, 204, 1);
+    }
+  }
+}
+
+
+//dropdown navigation
+.navSwitch-label {
+  cursor: pointer;
+  position: relative;
+  background-position: -131px -22px;
+}
+
+#navSwitch {
+  position: fixed;
+  top: -50px;
+}
+
+#header nav {
+  display: none;
+  .animation(fadeInDown .25s ease;);
+  background-color: rgba(204, 204, 204, 0.8);
+
+}
+
+.navSwitch-label {
+  .hamburger;
+  .font-size(4rem);
+  .width(4rem);
+  .height(4rem);
+  position: relative;
+  display: block;
+
+  &:before, &:after {
+    position: absolute;
+    left: 0;
+    .transition(visibility 0.2s ease,opacity 0.2s ease;);
+  }
+
+  &:before {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &:after {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+#navSwitch:checked {
+  & ~ .navSwitch-label {
+    &:before {
+      visibility: hidden;
+      opacity: 0;
+    }
+    &:after {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  & ~ nav {
+    display: block;
+  }
+}
+
+.mq-medium() {
+  #header nav {
+    right: 0;
+    width: 100%;
+  }
+}
+
+.mq-large-plus() {
+  #header {
+    .logo, nav {
+      float: left;
+      .max-height(5rem);
+
+    }
+
+    nav {
+      display: block;
+      float: left;
+      position: relative;
+      width: auto;
+    }
+
+    .nav-item {
+      background: none;
+      display: inline;
+      .margin-right(2rem);
+    }
+  }
+
+  .navSwitch-label {
+    display: none;
+  }
+}

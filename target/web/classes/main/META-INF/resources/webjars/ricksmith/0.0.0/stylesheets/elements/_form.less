@@ -1,0 +1,79 @@
+.banner-content-container {
+  .width(50%);
+  float: left;
+}
+
+.contact-form {
+  .width(50%);
+  float: right;
+}
+
+.mktoForm[style] span.mktoButtonWrap.mktoDownloadButton button.mktoButton { //formats button
+  background: @rickbackground;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  width: 40% !important;
+}
+
+.mktoForm[style] .mktoError .mktoErrorMsg { //formats required field popup
+  color: white;
+  background: @rickbackground;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  border: 1px solid @rickbackground;
+}
+
+.mktoForm[style] .mktoError .mktoErrorArrow { //formats little arrow
+  background-color: @rickbackground;
+  border: none;
+  text-shadow: none;
+}
+
+.mktoForm[style] .mktoRequiredField label.mktoLabel {
+  color: @rick;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+  color: @rick;
+}
+
+textarea:focus, input:focus{
+  outline: 0;
+}
+
+textarea {
+  border: 1px solid @rick;
+}
+
+
+.mq-medium() {
+  .contact-form {
+    display: block;
+    margin: 0 auto;
+    .width(100%);
+    .padding(1rem);
+  }
+   .banner-content-container {
+    margin: 0 auto;
+    .width(100%);
+  }
+}
+
+.mq-small() {
+  .contact-form {
+    display: block;
+    margin: 0 auto;
+    .width(100%);
+    .padding(1rem);
+  }
+   .banner-content-container {
+    margin: 0 auto;
+    .width(100%);
+  }
+}
+
+

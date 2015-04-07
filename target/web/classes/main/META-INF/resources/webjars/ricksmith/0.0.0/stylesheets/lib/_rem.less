@@ -1,0 +1,77 @@
+.px(@prop, @rest...) when (@ie = true) {
+  .px-inner(@prop, @rest...) when (length(@rest) = 4) {
+    @size1: extract(@rest, 1);
+    @size2: extract(@rest, 2);
+    @size3: extract(@rest, 3);
+    @size4: extract(@rest, 4);
+
+    @{prop}: unit((@size1*10), px) unit((@size2*10), px) unit((@size3*10), px) unit((@size4*10), px);
+    @{prop}: extract(@rest, 1) extract(@rest, 2) extract(@rest, 3) extract(@rest, 4);
+  }
+
+  .px-inner(@prop, @rest...) when (length(@rest) = 3) {
+    @size1: extract(@rest, 1);
+    @size2: extract(@rest, 2);
+    @size3: extract(@rest, 3);
+
+    @{prop}: unit((@size1*10), px) unit((@size2*10), px) unit((@size3*10), px);
+    @{prop}: extract(@rest, 1) extract(@rest, 2) extract(@rest, 3);
+  }
+
+  .px-inner(@prop, @rest...) when (length(@rest) = 2) {
+    @size1: extract(@rest, 1);
+    @size2: extract(@rest, 2);
+
+    @{prop}: unit((@size1*10), px) unit((@size2*10), px);
+    @{prop}: extract(@rest, 1) extract(@rest, 2);
+  }
+
+  .px-inner(@prop, @rest...) when (default()) {
+    @size: extract(@rest, 1);
+
+    @{prop}: unit((@size*10), px);
+    @{prop}: extract(@rest, 1);
+  }
+
+  .px-inner(@prop, @rest);
+}
+
+.px(@prop, @rest...) when (default()) {
+  @{prop}: @rest;
+}
+
+.font-size(@size) {       .px(font-size; @size)}
+
+.border-radius(...) {     .px(border-radius; @arguments)}
+
+.padding(...) {           .px(padding; @arguments)}
+.padding-top(@p) {        .px(padding-top; @p)}
+.padding-right(@p) {      .px(padding-right; @p)}
+.padding-bottom(@p) {     .px(padding-bottom; @p)}
+.padding-left(@p) {       .px(padding-left; @p)}
+
+.margin(...) {            .px(margin; @arguments)}
+.margin-top(@m) {         .px(margin-top; @m)}
+.margin-right(@m) {       .px(margin-right; @m)}
+.margin-bottom(@m) {      .px(margin-bottom; @m)}
+.margin-left(@m) {        .px(margin-left; @m)}
+
+.width(@width) {          .px(width; @width)}
+.min-width(@width) {      .px(min-width; @width)}
+.max-width(@width) {      .px(max-width; @width)}
+
+.height(@height) {        .px(height; @height)}
+.min-height(@height) {    .px(min-height; @height)}
+.max-height(@height) {    .px(max-height; @height)}
+
+.top(@top) {              .px(top; @top)}
+.right(@right) {          .px(right; @right)}
+.bottom(@bottom) {        .px(bottom; @bottom)}
+.left(@left) {            .px(left; @left)}
+
+.line-height(@height) when(default()) {
+  line-height: @height
+}
+.line-height(@height) when(get-unit(@height) = "rem") {
+  .px(line-height; @height)
+}

@@ -1,0 +1,34 @@
+@font-main: "Open Sans", Helvetica, Arial, sans-serif;
+
+@type-micro:    0.8rem;
+@type-smallest: 1.0rem;
+@type-smaller:  1.2rem;
+@type-small:    1.4rem;
+@type-base:     1.6rem;
+@type-medium:   2.0rem;
+@type-large:    2.4rem;
+@type-larger:   2.8rem;
+@type-largest:  3.2rem;
+@type-jumbo:    4.4rem;
+
+@lineHeight-tighter: 1.25;
+@lineHeight-tight: 1.5;
+@lineHeight-base: 1.75;
+@lineHeight-loose: 2;
+
+// @2.1.4 Font Styles
+.font-main(@type: @type-base, @lineHeight: @lineHeight-base) {
+  font: normal 300 unit((@type * 10), px)/@lineHeight @font-main;
+  font: normal 300 @type/@lineHeight @font-main;
+}
+
+.font-strong(@type) when (@type = inherit) {
+  font-style: normal;
+  font-weight: 700;
+  font-family: @font-main;
+}
+
+.font-strong(@type: @type-base, @lineHeight: @lineHeight-base) when not (@type = inherit) {
+  font: normal 700 unit((@type * 10), px)/@lineHeight @font-main;
+  font: normal 700 @type/@lineHeight @font-main;
+}

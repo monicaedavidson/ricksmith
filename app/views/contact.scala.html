@@ -1,0 +1,33 @@
+@(block: Block)(implicit request: RequestHeader, ctx: PrismicHelper.Context)
+
+@main("Contact") {  
+<div class="banner" style="background-image: url(@block.banner.map(_.main.url)); width:100%">
+    <div class="banner-heading">
+        @block.heading.map { heading =>
+            @Html(heading.asHtml(ctx.linkResolver))
+        }
+    </div>
+</div>
+    <div class="banner-content-container">
+		<div class="bannerQuote-container">
+			@block.bannerQuote.map { bannerQuote =>
+			    <blockquote class="bannerQuote-quote">@bannerQuote</blockquote>
+			}
+			@block.bannerAuthor.map { bannerAuthor =>
+			    <figcaption class="bannerQuote-author">@bannerAuthor</figcaption>
+			}
+		</div>
+		<div class="content-formatting"> 
+		@block.content.map { content =>
+		    @Html(content.asHtml(ctx.linkResolver))
+		}
+        </div> 
+    </div>
+    <div class="contact-form">
+        <script src="//app-abb.marketo.com/js/forms2/js/forms2.min.js"></script>
+        <form id="mktoForm_1201"></form>
+        <script>MktoForms2.loadForm("//app-abb.marketo.com", "685-IGO-543", 1201);</script>
+    </div>
+}
+
+

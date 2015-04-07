@@ -1,0 +1,31 @@
+@(block: Block, events: collection.immutable.Seq[Event])(implicit request: RequestHeader, ctx: PrismicHelper.Context)
+
+@main("Events") {
+<div class="wrapper col">
+  @components.block(block)
+</div>
+    <div class="events">
+        @events.take(4).map(components.event(_))
+        <input id="show-all" class="show-all" type="checkbox">
+        <label class="label-showAll" for="show-all"></label>
+        <br>
+        @events.drop(4).map(components.event(_))
+    </div>
+}
+
+<div class="feature">
+    <div class="video">
+        <iframe width="380" height="300" src="https://www.youtube.com/embed/YBkmefllgiE" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-about">
+        <h1>See Rick in Action</h1>
+        <h2>Taser Technology Summit 2014</h2>
+        <hr>
+        <h3>Take a look at Rick talking!</h3>
+    </div>
+</div>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script src="@routes.Assets.versioned("javascripts/gmaps.coffee")"></script>
+

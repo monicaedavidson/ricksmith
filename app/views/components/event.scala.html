@@ -1,0 +1,36 @@
+@(event: Event)(implicit ctx: PrismicHelper.Context)
+
+<div class="event">
+    <img src="http://placekitten.com/g/200/150">   
+    @map(lat: Double, long: Double) = {
+        <div id="map-canvas-placeholder"data-latitude="@lat" data-longitude="@long"></div>
+        }
+    @event.geo.map { geo =>
+        @map(geo.latitude, geo.longitude)
+    }
+    <div class="background">
+    @event.name.map { name =>
+        @Html(name.asHtml(ctx.linkResolver, event.htmlSerializer))
+    }
+
+    @event.description.map { desc =>
+        @Html(desc.asHtml(ctx.linkResolver)) 
+        }
+
+    @event.date.map { date =>
+        <time class="event-date">@date.asText("MMMM dd, yyyy")</time>
+    }
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
